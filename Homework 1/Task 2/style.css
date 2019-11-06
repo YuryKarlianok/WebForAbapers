@@ -1,0 +1,35 @@
+#border {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: solid 3px black;
+    background-color: white;
+}
+
+.square {
+    position: absolute;
+}
+
+#red {
+    height: 60%;
+    width: 60%;
+    left: 0;
+    top: 0;
+    background-color: red;
+}
+
+#blue {
+    height: 60%;
+    width: 60%;
+    left: 40%;
+    top: 40%;
+    background-color: blue;
+}
+
+#green {
+    height: 60%;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+    background-color: lime;
+}

@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+.red {
+    background: red;
+    margin: 5px;
+    height: 100px;
+    flex: 1;
+}
+
+.orange {
+    background: orange;
+    margin: 5px;
+    height: 100px;
+    flex: 2;
+}
+
+.green {
+    background: green;
+    margin: 5px;
+    height: 300px;
+    flex: 1 100%;
+}
+
+.brown {
+    background: brown;
+    margin: 5px;
+    height: 200px;
+    flex: 1;
+}
+
+.blue {
+    background: blue;
+    margin: 5px;
+    height: 200px;
+    flex: 1;
+}
+
+.purple {
+    background: purple;
+    margin: 5px;
+    height: 200px;
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .container > * { 
+        flex: 1 100%;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    .purple {
+        margin: 5px;
+        flex: 1 100%;
+    }
+}

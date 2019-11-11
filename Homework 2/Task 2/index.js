@@ -1,5 +1,9 @@
 window.onload = function() {
-    var username = prompt("Please enter your name");
+    do
+    {
+        var username = prompt("Please enter your name");
+    }
+    while (!username)
     document.getElementById("name").innerHTML = username;
     if (hasNumber(username) == true) {
         document.getElementById("revname").innerHTML = reversename(username);
